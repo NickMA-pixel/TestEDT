@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="382bd072-0dcb-4368-bd7e-ce09c997a5ba">
+  <producedTypes>
+    <objectType typeId="9a6ddbfa-e7b6-4ee7-8f1a-8b1ea81e307c" valueTypeId="46dc7d6d-55c4-40d1-905f-c5ddd45408eb"/>
+    <refType typeId="a25aec9f-cdcb-4772-b8ea-83ff4c7bb31b" valueTypeId="b6909ecb-a6fa-4c22-8fd2-ea50975a771e"/>
+    <selectionType typeId="9867818e-ac6f-4e66-824d-0cc3354f66f9" valueTypeId="00913308-e281-468b-bbec-99f6b0879203"/>
+    <listType typeId="41741dba-b407-426b-a7ea-40a1abc3f888" valueTypeId="ca55972c-eb3b-4197-91e9-76857796db0d"/>
+    <managerType typeId="27cb87b5-b8dd-4fdf-a687-196163987821" valueTypeId="367e3005-9983-484d-9bcc-a571c53079d0"/>
+  </producedTypes>
+  <name>Удалить</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Удалить.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Удалить.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
