@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="429793f7-96f4-4fef-8e5d-1da7e5b0a4e4">
+  <producedTypes>
+    <selectionType typeId="f474211f-b6e3-47bc-a128-a09176dd9fa1" valueTypeId="d8487a85-50dd-40bf-85fb-8aecc1c0b777"/>
+    <listType typeId="ebed87d7-cc7f-48c8-9362-3e6c2f0613f7" valueTypeId="0599d896-c3d4-42a7-953a-32bb82464539"/>
+    <managerType typeId="b51f02b0-5b28-497c-8797-e0c0bfb0eed5" valueTypeId="8b3283fd-299b-47bc-8421-91bc1469094a"/>
+    <recordSetType typeId="f95d7eed-632a-43ab-a9da-9b09b8563049" valueTypeId="c58c6663-1c6b-44fa-ad58-77ba63165c3f"/>
+    <recordKeyType typeId="abca8304-b23f-4c8f-bdfb-6dccb8bac04f" valueTypeId="a76f4430-df2b-4d77-86e6-bc1a3956bf5c"/>
+    <recordType typeId="0454a3c4-9163-4107-a33b-d5e9ce907875" valueTypeId="67c67016-2e69-47ec-bac7-c452b147cd28"/>
+    <recordManagerType typeId="1b4a5a95-e70d-4010-84d3-d93fcb4cebf6" valueTypeId="aca37734-6b84-46f3-bfba-7ee927bf15cb"/>
+  </producedTypes>
+  <name>ШтатноеРасписание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штатное расписание</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d4e2472e-f321-4191-8bbd-ff6d5a951bdb">
+    <name>Оклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e58e12de-f605-47ee-8ec9-7b9d5b854b3d">
+    <name>ВидШтатногоРасписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид штатного расписания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыШтатногоРасписания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
