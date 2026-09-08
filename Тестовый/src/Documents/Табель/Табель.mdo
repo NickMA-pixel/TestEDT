@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="665b51db-88e7-4a9c-962b-37508cf374cb">
+  <producedTypes>
+    <objectType typeId="74527abd-4bb9-4150-a5a5-ae39f020ec56" valueTypeId="e57c7b37-622a-4174-ad3b-2f6c84ba50b8"/>
+    <refType typeId="e58aeb33-248b-44ab-9da1-dd6fb2589620" valueTypeId="3eb38045-1046-4a39-ad05-0115acf0380c"/>
+    <selectionType typeId="704d2bbb-6621-403a-943d-7853408ba042" valueTypeId="5ee3afe4-657c-4dee-b8d6-585bf7a8f688"/>
+    <listType typeId="f3bec6d6-0658-4315-b43e-3e4a6dc5d629" valueTypeId="3c89b75c-6aef-4ee3-877f-8bd6f9024697"/>
+    <managerType typeId="67227931-45f2-49be-8b89-98b48efe42de" valueTypeId="5b474cc8-e4bb-40ac-ba8a-73c9b77065e4"/>
+  </producedTypes>
+  <name>Табель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Табель</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Табель.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Табель.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="4deb9590-d146-4319-9a05-9679d1c5d20b">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2e33baaf-deb1-4032-bea0-01a26934b2c6">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="1ef14c77-6f66-4338-93e7-14841d2b91cf">
+    <producedTypes>
+      <objectType typeId="7c1e494e-d814-4304-8ac1-49dc56d96b4d" valueTypeId="1e4f7024-d6d3-4e87-b3e3-da7052939896"/>
+      <rowType typeId="0ddee943-4cc0-41e3-9f51-a9002cb22586" valueTypeId="c03e734a-ea1d-4157-97a5-d4580d586068"/>
+    </producedTypes>
+    <name>ДанныеТабеля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные табеля</value>
+    </synonym>
+    <attributes uuid="aadec788-f8fb-4f18-a490-2b881d130550">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Подразделения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="295663a2-d764-463f-abb0-a270569ce9ed">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="47cf9254-7a18-4033-aedd-4509214c41c8">
+      <name>ЧасыФакт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часы факт</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a8a88042-c484-4ec1-a0de-1c534238bb18">
+      <name>ЧасыПлан</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часы план</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>
