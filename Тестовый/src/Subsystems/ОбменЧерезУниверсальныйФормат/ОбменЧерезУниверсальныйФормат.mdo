@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3da80f7c-8cb6-4dbe-af41-78c37470a1ac">
+  <name>ОбменЧерезУниверсальныйФормат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен через универсальный формат</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>ExchangePlan.СинхронизацияДанныхЧерезУниверсальныйФормат</content>
+  <content>EventSubscription.СинхронизацияДанныхЧерезУниверсальныйФорматРегистрация</content>
+  <content>CommonModule.МенеджерОбменаЧерезУниверсальныйФормат</content>
+  <content>CommonModule.ОбменДаннымиСобытияИС</content>
+  <content>CommonModule.ОбменДаннымиПереопределяемый</content>
+  <content>CommonCommand.ЗагрузитьПравилаРегистрацииОбъектов</content>
+  <content>CommonCommand.НастройкиПодключения</content>
+  <content>CommonCommand.ПолучитьНастройкиСинхронизацииДляДругойПрограммы</content>
+  <content>CommonCommand.Синхронизировать</content>
+  <content>CommonCommand.СинхронизироватьСДополнительнымиПараметрами</content>
+  <content>CommonCommand.СобытияОтправки</content>
+  <content>CommonCommand.СобытияПолучения</content>
+  <content>CommonCommand.СоставОтправляемыхДанных</content>
+  <content>CommonCommand.СценарииСинхронизации</content>
+  <content>CommonCommand.УдалитьНастройкуСинхронизации</content>
+  <content>XDTOPackage.EnterpriseData_1_17_3</content>
+  <content>XDTOPackage.ExchangeMessage</content>
+  <content>EventSubscription.СинхронизацияДанныхЧерезУниверсальныйФорматРегистрацияУдаления</content>
+</mdclass:Subsystem>

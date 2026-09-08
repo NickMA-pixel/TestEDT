@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b25eb9e-b0bc-4ccd-b2d5-a62329c0f527">
+  <producedTypes>
+    <objectType typeId="1c729568-bb3f-49f7-b156-c2d135a97e5c" valueTypeId="fcbb7222-8440-487b-9418-71bbe2fda32a"/>
+    <managerType typeId="2cfa30e5-8a71-44ee-8324-52589c030fc7" valueTypeId="b5621f64-888e-4a92-8360-244cfd0131fd"/>
+  </producedTypes>
+  <name>РегЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рег задания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РегЗадания.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="15b172c9-851b-488e-9c7d-66a181aabfad">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

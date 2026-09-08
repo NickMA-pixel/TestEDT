@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c520d2c-4fc7-4d5e-b8a1-26df7b243d02">
+  <producedTypes>
+    <objectType typeId="28baf795-4bbc-456d-a464-f9a70d68f9cb" valueTypeId="288fca63-a8c5-42ac-8210-c68600663347"/>
+    <refType typeId="61d076fc-f5d5-44cc-a4a6-ba6bd9371c97" valueTypeId="736bbde4-2f57-40c7-b123-5069cd572bc4"/>
+    <selectionType typeId="493e6417-049f-46b4-b835-af5b6746388b" valueTypeId="7a4790d5-a55c-4bfe-a917-8325d26e3b20"/>
+    <listType typeId="77480699-53a0-4aa9-9ee3-544a2cf2d18d" valueTypeId="e612942f-768e-4d7a-8336-7a49d53047d9"/>
+    <managerType typeId="54ca9e13-35b1-4e6a-a7cb-73f6ca6877bb" valueTypeId="e414b177-4d7a-4ccc-9006-bac2e411f96a"/>
+  </producedTypes>
+  <name>ВидыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6029a9f6-0607-4701-8fac-a77c0594cb6b">
+    <name>НаборСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор свойств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыДополнительныхРеквизитовИСведений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

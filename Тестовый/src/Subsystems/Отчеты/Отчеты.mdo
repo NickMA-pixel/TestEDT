@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b056334f-be0a-4b04-bda5-2a1550eb74e4">
+  <name>Отчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.РегЗадания</content>
+  <content>DataProcessor.ЗаполинтьТестовыйРегистр</content>
+  <content>InformationRegister.ТестовыйРегистр</content>
+  <content>DataProcessor.ЗаполинтьТестовыйРегистр1</content>
+  <content>DataProcessor.ВыгрузкаСправочникаВExcel</content>
+</mdclass:Subsystem>

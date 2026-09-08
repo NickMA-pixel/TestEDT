@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ca0adbf-dfcb-4f5a-9490-8e05461c47d8">
+  <producedTypes>
+    <objectType typeId="a8972298-92ab-4ded-9023-64dd7397f93f" valueTypeId="bf8c1f9c-9e69-4e6e-87da-2e31b39419d5"/>
+    <managerType typeId="997baec5-9e49-4598-beb5-29c77a507683" valueTypeId="b6ebfd38-65af-422c-bf50-80c2091eccac"/>
+  </producedTypes>
+  <name>ВыгрузкаСправочникаВExcel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка справочника в excel</value>
+  </synonym>
+  <comment>Не выгружает данные табличных частей</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыгрузкаСправочникаВExcel.Form.Форма</defaultForm>
+  <forms uuid="a571b7ab-8f25-400d-879f-869ccf0dae90">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fb37e86c-3f28-4e09-969a-a28a070e487b">
+    <name>ФормаПодбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

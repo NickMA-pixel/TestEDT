@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9f76271-4d32-4bca-b655-eb81c32ca49c" thisNode="29e11f78-2832-4deb-a193-f9eba95204ac">
+  <producedTypes>
+    <objectType typeId="728eb8f6-dcb3-4e25-95b2-86929668c465" valueTypeId="f7a00340-67dd-4783-97ab-a6f3c5aad4ce"/>
+    <refType typeId="4a8293f5-a646-4e2d-acee-366085579a91" valueTypeId="061ac68e-2e44-4771-89be-5517a5a43ea1"/>
+    <selectionType typeId="a1e4cf1e-d8a6-4bf8-aaa7-ec1f2c451e50" valueTypeId="d2f9ccc2-1790-46a1-8dfb-b3641210aca4"/>
+    <listType typeId="9a036da2-422a-42eb-a5e1-6b9f31c4c07e" valueTypeId="515f2c79-7f07-4c44-a68e-ab0ddae21063"/>
+    <managerType typeId="21c3fed6-fd6f-4784-8e14-54f305816539" valueTypeId="36a11481-fa77-44ef-aecc-a1256268646b"/>
+  </producedTypes>
+  <name>СинхронизацияДанныхЧерезУниверсальныйФормат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных через универсальный формат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.СинхронизацияДанныхЧерезУниверсальныйФормат.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.СинхронизацияДанныхЧерезУниверсальныйФормат.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>36</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>Catalog.КлассификаторЕдиницИзмерения</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.СчетНаОплату</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Контрагенты</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Организации</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Склады</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ДоговорыКонтрагентов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.БанковскиеСчета</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПоступлениеТоваровУслуг</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Валюты</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СтраныМира</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлассификаторБанков</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.СинхронизацияДанныхЧерезУниверсальныйФормат.Form.ФормаУзла</defaultObjectForm>
+  <attributes uuid="5e1f4ce4-5ea6-4208-a86a-400528c1f7b2">
+    <name>ВерсияФорматаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия формата обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fe31ffdc-c936-4fd6-9bfa-fcd11e1d99fd">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExchangePlan>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c92f8d99-ccf7-4c9f-9776-d3f3f1a6aef1">
+  <producedTypes>
+    <refType typeId="27f6291c-1c3c-47b1-b7fc-f9879a60a3bf" valueTypeId="db35ce4a-53b4-48dc-9faa-dd67f3c3b813"/>
+    <listType typeId="0bc609f9-f8f1-4984-82ed-c8c48010e019" valueTypeId="58b53f56-1174-4fd7-8d08-41184ae0b875"/>
+    <managerType typeId="607d3617-2ed3-4cd5-95fd-8a9b1c4f1a11" valueTypeId="d429b055-1071-4ef0-aace-1a59ef9c9b78"/>
+  </producedTypes>
+  <name>ТипыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы номенклатуры</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="421e1bbe-a025-4618-a980-d098ba53d4ac">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa57fe2e-8899-42b8-9e03-18d59c4e5bdd">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

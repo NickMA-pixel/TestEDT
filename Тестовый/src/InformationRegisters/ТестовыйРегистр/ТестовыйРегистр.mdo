@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ccc43dc-1d42-4f5f-9583-ae9aea7be657">
+  <producedTypes>
+    <selectionType typeId="653ceafc-dbdf-4795-ba25-fc99c841fca1" valueTypeId="31216213-672a-44a7-a476-b98554cdafbd"/>
+    <listType typeId="6718e1d0-4021-4c4e-bdcd-44d5603ce47c" valueTypeId="a7780ef8-3a2b-4808-8185-3e9586d2d462"/>
+    <managerType typeId="3416b3d2-96ab-4687-b8a2-0788e0f38325" valueTypeId="03c18f4b-2f44-4fd8-9f94-3ce2735ae0fa"/>
+    <recordSetType typeId="fbea781b-6b73-42d6-a411-2643622e6e99" valueTypeId="2ee2ff92-923f-48e1-8591-116c622c7f07"/>
+    <recordKeyType typeId="a1233fa7-9bbe-4a13-971d-a4e0719fd459" valueTypeId="feabfadf-5605-460c-88ec-8dd52747e822"/>
+    <recordType typeId="8eef995d-c1d0-4953-8e52-ae89a8f96cf6" valueTypeId="d13f02cd-4526-4252-a834-135e6bcc90e3"/>
+    <recordManagerType typeId="ec4edde6-a8fd-468e-9591-975f744677c9" valueTypeId="de816455-f8b9-431c-b395-7ca5fe0a087a"/>
+  </producedTypes>
+  <name>ТестовыйРегистр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовый регистр</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="62f2c209-d97f-431b-a7bc-8fededdf7474">
+    <name>ПометкаУдаления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3c60eb01-9d85-4182-bc9a-0915d2e64f7f">
+    <name>Строка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.Склады</types>
+      <stringQualifiers>
+        <length>7</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bd8f01c0-e024-4f7e-ae53-b1496e68cf19">
+    <name>Число</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="defc6217-92f7-4a30-9981-3a1703fed514">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
