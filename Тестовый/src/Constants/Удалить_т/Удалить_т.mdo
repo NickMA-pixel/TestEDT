@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c90a20b4-eb51-4cfc-a0e5-d0cfeef85082">
+  <producedTypes>
+    <managerType typeId="925a14ef-6452-46f9-a98e-7e50e8dd4ad3" valueTypeId="c8508d28-849d-4357-8c9b-f1416c7ef614"/>
+    <valueManagerType typeId="9931ac39-553d-48e3-9fc1-c22e5bb67d7c" valueTypeId="88f3e409-e317-404d-ad80-854ee9e3eee4"/>
+    <valueKeyType typeId="707d68a6-6eb2-4eb4-b98a-d3832bace132" valueTypeId="98349136-25cb-4f2b-aa03-c936ac4ea901"/>
+  </producedTypes>
+  <name>Удалить_т</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить т</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

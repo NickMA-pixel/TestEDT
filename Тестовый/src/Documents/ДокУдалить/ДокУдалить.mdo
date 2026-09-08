@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acce69ba-2270-486f-8ee0-ff2838d5cea9">
+  <producedTypes>
+    <objectType typeId="62d3144c-443d-4416-b01a-acbd610674c6" valueTypeId="a16cb3ab-b080-4830-bf9f-462c9f93fa41"/>
+    <refType typeId="826561b1-9172-4cac-adc8-1921443808ac" valueTypeId="973bd9f4-def4-4a03-b023-81dc39245270"/>
+    <selectionType typeId="e484fce7-19d5-4694-a721-47a7dcaf5351" valueTypeId="ac70db62-7b4e-4c6c-9703-e6b21ce99fc3"/>
+    <listType typeId="e27cfb14-8501-4d16-a507-32265899cc4b" valueTypeId="4b2738e6-d937-47d7-b3dd-bd38b9f33ffa"/>
+    <managerType typeId="e32a03c4-9a8f-432c-9f1f-5011233d0772" valueTypeId="0419e401-05a7-4b07-b634-da064590ac5e"/>
+  </producedTypes>
+  <name>ДокУдалить</name>
+  <synonym>
+    <key>ru</key>
+    <value>Док удалить</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДокУдалить.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
