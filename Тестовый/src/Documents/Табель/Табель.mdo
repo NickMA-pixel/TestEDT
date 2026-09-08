@@ -10,13 +10,21 @@
   <name>Табель</name>
   <synonym>
     <key>ru</key>
-    <value>Табель</value>
+    <value>Недельный табель</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.Табель.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Недельный табель</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Недельные табели</value>
+  </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
