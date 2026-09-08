@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a92cebe9-4e30-4901-842c-b1cc1d0adc9a">
-  <name>ТестоваяКонфигураця</name>
-  <synonym>
-    <key>ru</key>
-    <value>Тестовая конфигураця</value>
-  </synonym>
-  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="a0068262-10a0-4841-82b6-f6e35a7fc312"/>
-  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="283971fe-91b7-4376-aca1-ae970344f753"/>
-  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="8ca58cf5-6f2d-4488-a306-39692d61f7bf"/>
-  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e7a8cbfb-1f4a-4051-8aba-0d5eeb42ab7e"/>
-  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="6c200301-dde9-4d39-be70-f308c089363c"/>
-  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="9f2bc417-6f6a-4142-8bbb-70f95c19b247"/>
-  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9aef61a5-702b-4ffa-a67c-e0b92778e29e"/>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8712eb01-c1f3-4c95-bd5d-388b8c3a6303">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5e3c786b-4d73-42fd-8b26-2e083b5906fe"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f3e60dd2-4973-4479-8b96-12e4bfc9fd21"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="8c30750e-760a-4938-b753-1ff14ab4dd7a"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="aba31708-8ba7-4f35-bddd-68be7c72c290"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="bc1bafa7-6f3d-4af4-ba09-be2c8615cda3"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e80d0242-9979-47f0-977b-b2ceef1dca38"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="4d898aa1-c6fb-4053-b5d2-cb6edf7e2760"/>
   <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <vendor>УЦ №1</vendor>
-  <version>1.0.0.1</version>
-  <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -29,9 +22,12 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.27</compatibilityMode>
-  <languages uuid="20b8317c-1c58-4baa-a76a-468fdcd409ff">
+  <languages uuid="26c16a92-a8f6-4b2b-9c61-4914303c38f5">
     <name>Русский</name>
     <synonym>
       <key>ru</key>
